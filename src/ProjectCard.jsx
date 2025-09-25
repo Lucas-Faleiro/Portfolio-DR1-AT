@@ -7,7 +7,7 @@ export default function ProjectCard({ project }) {
         alt={project.title}
         width={"100px"}
       />
-      <button>Acessar</button>
+      <a href={project.url}>Acessar</a>
     </div>
   );
 }

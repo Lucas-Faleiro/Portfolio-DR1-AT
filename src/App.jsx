@@ -12,11 +12,13 @@ function App() {
     name: "Lucas Faleiro",
     biography:
       "Aspirante de Tecnologia, estudante de Análise e Desenvolvimento de Sistemas no Instituto Infnet",
+    github: "https://github.com/Lucas-Faleiro",
+    linkedin: "https://www.linkedin.com/in/lucasfaleirosilva/",
   };
 
   return (
     <div>
-      <Header />
+      <Header github={userKora.github} linkedin={userKora.linkedin} />
       <ProfileCard userKora={userKora} />
       <SkillsSection skillsRating={skillsRating} />
       <Testimonial />
