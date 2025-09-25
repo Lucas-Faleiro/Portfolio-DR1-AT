@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "skill": "HTML",
+    "rating": 4
+  },
+  {
+    "id": 2,
+    "skill": "CSS",
+    "rating": 3
+  },
+  {
+    "id": 3,
+    "skill": "JavaScript",
+    "rating": 4
+  },
+  {
+    "id": 4,
+    "skill": "React",
+    "rating": 3
+  }
+]
