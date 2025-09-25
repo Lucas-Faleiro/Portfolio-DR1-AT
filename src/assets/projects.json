@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Odin Calculator",
+    "image": "odin-calculator.png",
+    "url": "https://lucas-faleiro.github.io/odin-calculator/"
+  },
+  {
+    "id": 2,
+    "title": "Virtual Library",
+    "image": "korabiblioteca.png",
+    "url": "https://codesandbox.io/p/sandbox/dr2-tp3-7-12-rz8yhz"
+  },
+  {
+    "id": 3,
+    "title": "MyLibrary(Mobile-first)",
+    "image": "mylibrary.png",
+    "url": "https://codesandbox.io/p/sandbox/dr1-tp3-n9l7ly"
+  },
+  {
+    "id": 4,
+    "title": "ResearchFlow",
+    "image": "researchflow.png",
+    "url": "https://stackblitz.com/edit/vitejs-vite-5i8jli2l?file=src%2FApp.jsx"
+  }
+]

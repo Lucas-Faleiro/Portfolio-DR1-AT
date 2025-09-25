@@ -4,6 +4,8 @@ import ProfileCard from "./ProfileCard";
 import SkillsSection from "./SkillsSection";
 import Testimonial from "./Testimonial";
 import skillsRating from "./assets/skillsRating.json";
+import projects from "./assets/projects.json";
+import ProjectsSection from "./ProjectsSection";
 
 function App() {
   const userKora = {
@@ -18,6 +20,7 @@ function App() {
       <ProfileCard userKora={userKora} />
       <SkillsSection skillsRating={skillsRating} />
       <Testimonial />
+      <ProjectsSection projects={projects} />
     </div>
   );
 }
