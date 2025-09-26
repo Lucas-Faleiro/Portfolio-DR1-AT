@@ -3,7 +3,6 @@
   display: flex;
   justify-content: center;
   margin-top: 32px;
-  background-color: #fff;
 }
 
 .profileCardContent {
@@ -11,14 +10,20 @@
   flex-direction: flex;
   align-items: center;
   width: 350px;
-  padding: 16px;
   gap: 16px;
+  padding: 16px;
   border: 1px solid #ccc;
   border-radius: 30px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: var(--card-box-shadow);
+  background-color: var(--card-bg);
 }
 
 .profilePhoto {
   width: 80px;
   border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.profileName {
+  color: var(--text-title-color);
 }

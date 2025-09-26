@@ -2,9 +2,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
-  background-color: #2274a5;
-  color: white;
+  padding: 10px 40px;
+  background-color: var(--header-bg);
+  color: var(--card-bg);
+  box-shadow: 2px 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .headerTitle {

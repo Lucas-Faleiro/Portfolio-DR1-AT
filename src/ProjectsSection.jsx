@@ -1,9 +1,10 @@
 import ProjectCard from "./ProjectCard";
+import styles from "./ProjectsSection.module.css";
 
 export default function ProjectsSection({ projects }) {
   return (
-    <div>
-      <h4>Projetos</h4>
+    <div className={styles.projectsSection}>
+      <h4 className={styles.projectsTitle}>Projetos</h4>
       {projects.map((project) => {
         return <ProjectCard key={project.id} project={project} />;
       })}

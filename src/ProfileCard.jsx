@@ -12,7 +12,7 @@ export default function ProfileCard({ userKora }) {
           />
         </div>
         <div>
-          <h3>{userKora.name}</h3>
+          <h3 className={styles.profileName}>{userKora.name}</h3>
           <p>{userKora.biography}</p>
         </div>
       </div>
