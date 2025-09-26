@@ -1,0 +1,10 @@
+.skillCardItem {
+  padding: 16px;
+  margin: 8px;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.rating {
+  font-size: 1.8rem;
+}

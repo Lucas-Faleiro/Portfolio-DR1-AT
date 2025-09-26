@@ -1,4 +1,4 @@
-import "./App.css";
+import styles from "./App.module.css";
 import Header from "./Header";
 import ProfileCard from "./ProfileCard";
 import SkillsSection from "./SkillsSection";
@@ -14,10 +14,11 @@ function App() {
       "Aspirante de Tecnologia, estudante de Análise e Desenvolvimento de Sistemas no Instituto Infnet",
     github: "https://github.com/Lucas-Faleiro",
     linkedin: "https://www.linkedin.com/in/lucasfaleirosilva/",
+    photo: "foto_de_perfil.jpeg",
   };
 
   return (
-    <div>
+    <div className={styles.appContainer}>
       <Header github={userKora.github} linkedin={userKora.linkedin} />
       <ProfileCard userKora={userKora} />
       <SkillsSection skillsRating={skillsRating} />
