@@ -5,9 +5,11 @@ export default function ProjectsSection({ projects }) {
   return (
     <div className={styles.projectsSection}>
       <h4 className={styles.projectsSectionTitle}>Projetos</h4>
-      {projects.map((project) => {
-        return <ProjectCard key={project.id} project={project} />;
-      })}
+      <div className={styles.projectsContainer}>
+        {projects.map((project) => {
+          return <ProjectCard key={project.id} project={project} />;
+        })}
+      </div>
     </div>
   );
 }

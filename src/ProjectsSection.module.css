@@ -1,3 +1,4 @@
+.projectsContainer,
 .projectsSection {
   display: flex;
   flex-direction: column;
@@ -8,4 +9,13 @@
 .projectsSectionTitle {
   font-size: var(--section-title);
   color: var(--titles-color);
+}
+
+@media ((min-width: 768px) and (max-width: 1024px)) {
+  .projectsContainer {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(100px, 1fr));
+    grid-template-rows: 1fr 1fr;
+    row-gap: 20px;
+  }
 }
