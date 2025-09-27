@@ -3,8 +3,21 @@
   margin: 8px;
   text-align: center;
   font-size: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .rating {
   font-size: 1.8rem;
+}
+
+@media ((min-width: 768px) and (max-width: 1024px)) {
+  .skillCardItem {
+    font-size: 1.6rem;
+    padding: 8px;
+  }
+  .rating {
+    font-size: 2rem;
+  }
 }
