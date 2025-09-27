@@ -16,14 +16,32 @@
   border-radius: 30px;
   box-shadow: var(--card-box-shadow);
   background-color: var(--card-bg);
+  font-size: 1.1rem;
 }
 
 .profilePhoto {
-  width: 80px;
+  width: 90px;
   border-radius: 50%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
 }
 
 .profileName {
   color: var(--text-title-color);
+  font-style: italic;
+}
+
+@media ((min-width: 768px) and (max-width: 1024px)) {
+  .profileCardContent {
+    /* width: 400px; */
+    font-size: 1.4rem;
+  }
+  .profilePhoto {
+    width: 120px;
+  }
+  .profileName {
+    /* font-size: 1.5rem; */
+  }
+}
+
+@media ((min-width: 1024px)) {
 }
