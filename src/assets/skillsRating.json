@@ -1,22 +1,22 @@
 [
   {
     "id": 1,
-    "skill": "HTML",
-    "rating": 4
+    "skill": "Mobile-First",
+    "rating": 6
   },
   {
     "id": 2,
     "skill": "CSS",
-    "rating": 3
+    "rating": 7
   },
   {
     "id": 3,
     "skill": "JavaScript",
-    "rating": 4
+    "rating": 7
   },
   {
     "id": 4,
     "skill": "React",
-    "rating": 3
+    "rating": 6
   }
 ]

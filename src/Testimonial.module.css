@@ -26,3 +26,10 @@
     font-size: 1.4rem;
   }
 }
+
+@media ((min-width: 1024px)) {
+  .testimonial {
+    font-size: 1.6rem;
+    max-width: 900px;
+  }
+}

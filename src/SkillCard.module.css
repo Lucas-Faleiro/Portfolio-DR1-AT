@@ -21,3 +21,13 @@
     font-size: 2rem;
   }
 }
+
+@media ((min-width: 1024px)) {
+  .skillCardItem {
+    font-size: 2rem;
+    padding: 16px;
+  }
+  .rating {
+    font-size: 2.4rem;
+  }
+}

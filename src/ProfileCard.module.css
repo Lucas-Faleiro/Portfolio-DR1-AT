@@ -40,4 +40,11 @@
 }
 
 @media ((min-width: 1024px)) {
+  .profileCardContent {
+    font-size: 2rem;
+    max-width: 900px;
+  }
+  .profilePhoto {
+    width: 180px;
+  }
 }

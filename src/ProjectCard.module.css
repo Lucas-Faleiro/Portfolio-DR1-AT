@@ -40,3 +40,17 @@
     justify-self: flex-end;
   }
 }
+
+@media (min-width: 1024px) {
+  .projectCard {
+    max-width: 500px;
+  }
+
+  .projectCard:nth-child(even) {
+    justify-self: flex-start;
+  }
+
+  .projectCard:nth-child(odd) {
+    justify-self: flex-end;
+  }
+}

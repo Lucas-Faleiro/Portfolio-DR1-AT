@@ -1,6 +1,7 @@
 {
   "name": "dr1-at",
   "private": true,
+  "homepage": "https://lucas-faleiro.github.io/portfolio-mobile-first",
   "version": "0.0.0",
   "type": "module",
   "scripts": {

@@ -32,3 +32,11 @@
     max-width: 740px;
   }
 }
+
+@media ((min-width: 1024px)) {
+  .skillsCardsContainer {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    max-width: 900px;
+  }
+}

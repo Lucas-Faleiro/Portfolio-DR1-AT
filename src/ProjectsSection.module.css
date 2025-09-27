@@ -19,3 +19,13 @@
     row-gap: 20px;
   }
 }
+
+@media (min-width: 1024px) {
+  .projectsContainer {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(400px, 600px));
+    column-gap: 8px;
+    row-gap: 20px;
+    justify-items: center;
+  }
+}
