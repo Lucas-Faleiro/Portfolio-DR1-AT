@@ -41,4 +41,11 @@ a:visited {
 }
 
 @media ((min-width: 1024px)) {
+  .headerContainer {
+    padding: 16px 80px;
+  }
+  .socialIcons {
+    font-size: 2.2rem;
+    gap: 30px;
+  }
 }
