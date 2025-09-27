@@ -20,3 +20,9 @@
   color: var(--titles-color);
   font-size: var(--section-title);
 }
+
+@media ((min-width: 768px) and (max-width: 1024px)) {
+  .testimonial {
+    font-size: 1.4rem;
+  }
+}
