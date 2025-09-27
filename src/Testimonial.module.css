@@ -9,7 +9,6 @@
 
 .testimonial {
   padding: 16px;
-  border: 1px solid #ccc;
   border-radius: 30px;
   box-shadow: var(--card-box-shadow);
   width: 70%;
@@ -19,4 +18,5 @@
 
 .testimonialTitle {
   color: var(--titles-color);
+  font-size: var(--section-title);
 }

@@ -7,7 +7,6 @@
 }
 
 .skillsCardsContainer {
-  border: 1px solid #ccc;
   border-radius: 30px;
   box-shadow: var(--card-box-shadow);
   display: grid;
@@ -15,11 +14,13 @@
   grid-template-rows: repeat(2, 1fr);
   align-items: center;
   justify-content: center;
-  width: 75%;
+  width: 70%;
   background-color: var(--card-bg);
   color: var(--text-title-color);
+  padding: 16px;
 }
 
 .skillSectionTitle {
   color: var(--titles-color);
+  font-size: var(--section-title);
 }

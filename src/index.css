@@ -1,11 +1,13 @@
 :root {
   --card-bg: #f8f9fa;
   --card-text: #333;
-  --card-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+  --card-box-shadow: 0 4px 8px rgba(255, 255, 255, 0.3),
+    0 6px 12px rgba(0, 0, 0, 0.5);
   --header-bg: #4a4e69;
   --app-bg: #22223b;
   --titles-color: #f8f9fa;
   --text-title-color: #22223b;
+  --section-title: 1.4rem;
 }
 
 * {
