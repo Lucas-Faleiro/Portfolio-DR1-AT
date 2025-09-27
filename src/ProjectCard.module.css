@@ -24,4 +24,5 @@
 
 .projectUrl {
   color: var(--text-title-color);
+  font-size: 1.4rem;
 }
